@@ -1,2 +1,0 @@
-# SHENUODA-epraam-
-index 
