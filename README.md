@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SHENUODA epraam — الصفحة الشخصية</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg: #0f1724;
@@ -46,11 +46,19 @@
       border-radius: 12px;
       overflow: hidden;
       flex-shrink: 0;
+      background: linear-gradient(135deg, #8b5cf6, #06b6d4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-    .avatar img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    .avatar span {
+      font-family: 'Poppins', sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      background: linear-gradient(90deg, #ffffff, #c4b5fd);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 1px;
     }
     h1 {
       margin: 0;
@@ -134,6 +142,7 @@
     @media (max-width:520px) {
       header {flex-direction: row; gap: 12px;}
       .avatar {width: 80px; height: 80px;}
+      .avatar span {font-size: 24px;}
     }
   </style>
 </head>
@@ -141,7 +150,7 @@
   <main class="container" role="main">
     <header>
       <div class="avatar">
-        <img src="shenuoda-logo.png" alt="صورة شنوده">
+        <span>m7n4</span>
       </div>
       <div>
         <h1>SHENUODA epraam</h1>
